@@ -1,3 +1,6 @@
 var res = require('./module.js');
 
-res(4,5);
+res.add(4,5);
+res.sub(4, 2);
+res.mul(4, 5);
+res.div(4, 2);
